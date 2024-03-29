@@ -11,7 +11,7 @@ import SwiftUI
 struct rentaboatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPAgeView()
         }
     }
 }

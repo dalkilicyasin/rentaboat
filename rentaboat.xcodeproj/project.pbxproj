@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90ED74A2BB024DF00F2B833 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90ED7492BB024DF00F2B833 /* ListView.swift */; };
+		D90ED7522BB15A4700F2B833 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90ED7512BB15A4700F2B833 /* NetworkManager.swift */; };
+		D90ED7542BB31DC900F2B833 /* CityResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90ED7532BB31DC900F2B833 /* CityResponseModel.swift */; };
+		D93136DD2BA2E9D5000E5A10 /* MainPAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93136DC2BA2E9D5000E5A10 /* MainPAgeView.swift */; };
+		D93136DF2BA2EF20000E5A10 /* RentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93136DE2BA2EF20000E5A10 /* RentView.swift */; };
+		D93136E82BA87A4B000E5A10 /* CustomerMainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93136E72BA87A4B000E5A10 /* CustomerMainPageView.swift */; };
 		D934958A2B839A2A0067B9EA /* rentaboatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93495892B839A2A0067B9EA /* rentaboatApp.swift */; };
-		D934958C2B839A2A0067B9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934958B2B839A2A0067B9EA /* ContentView.swift */; };
 		D934958E2B839A2E0067B9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D934958D2B839A2E0067B9EA /* Assets.xcassets */; };
 		D93495912B839A2E0067B9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93495902B839A2E0067B9EA /* Preview Assets.xcassets */; };
 		D934959B2B839A2E0067B9EA /* rentaboatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934959A2B839A2E0067B9EA /* rentaboatTests.swift */; };
 		D93495A52B839A2E0067B9EA /* rentaboatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93495A42B839A2E0067B9EA /* rentaboatUITests.swift */; };
 		D93495A72B839A2E0067B9EA /* rentaboatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93495A62B839A2E0067B9EA /* rentaboatUITestsLaunchTests.swift */; };
+		D9F863672BB457E100C5F2EF /* CustomerPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F863662BB457E100C5F2EF /* CustomerPageViewModel.swift */; };
+		D9F8636A2BB6FE1800C5F2EF /* TownResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F863692BB6FE1800C5F2EF /* TownResponseModel.swift */; };
+		D9F863752BB730CC00C5F2EF /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F863732BB730CC00C5F2EF /* cities.json */; };
+		D9F863762BB730CC00C5F2EF /* towns.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F863742BB730CC00C5F2EF /* towns.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90ED7492BB024DF00F2B833 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D90ED7512BB15A4700F2B833 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D90ED7532BB31DC900F2B833 /* CityResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResponseModel.swift; sourceTree = "<group>"; };
+		D93136DC2BA2E9D5000E5A10 /* MainPAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPAgeView.swift; sourceTree = "<group>"; };
+		D93136DE2BA2EF20000E5A10 /* RentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentView.swift; sourceTree = "<group>"; };
+		D93136E72BA87A4B000E5A10 /* CustomerMainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMainPageView.swift; sourceTree = "<group>"; };
 		D93495862B839A2A0067B9EA /* rentaboat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rentaboat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93495892B839A2A0067B9EA /* rentaboatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rentaboatApp.swift; sourceTree = "<group>"; };
-		D934958B2B839A2A0067B9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D934958D2B839A2E0067B9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93495902B839A2E0067B9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D93495962B839A2E0067B9EA /* rentaboatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rentaboatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,10 @@
 		D93495A02B839A2E0067B9EA /* rentaboatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rentaboatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93495A42B839A2E0067B9EA /* rentaboatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rentaboatUITests.swift; sourceTree = "<group>"; };
 		D93495A62B839A2E0067B9EA /* rentaboatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rentaboatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9F863662BB457E100C5F2EF /* CustomerPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPageViewModel.swift; sourceTree = "<group>"; };
+		D9F863692BB6FE1800C5F2EF /* TownResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownResponseModel.swift; sourceTree = "<group>"; };
+		D9F863732BB730CC00C5F2EF /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		D9F863742BB730CC00C5F2EF /* towns.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = towns.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90ED74F2BB1585100F2B833 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D90ED7512BB15A4700F2B833 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D90ED7502BB1586300F2B833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D90ED7532BB31DC900F2B833 /* CityResponseModel.swift */,
+				D9F863692BB6FE1800C5F2EF /* TownResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D934957D2B839A2A0067B9EA = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +129,16 @@
 		D93495882B839A2A0067B9EA /* rentaboat */ = {
 			isa = PBXGroup;
 			children = (
+				D9F863682BB68E9500C5F2EF /* CustomViews */,
+				D9F863652BB457B600C5F2EF /* Customer */,
+				D90ED7502BB1586300F2B833 /* Model */,
+				D90ED74F2BB1585100F2B833 /* Network */,
 				D93495892B839A2A0067B9EA /* rentaboatApp.swift */,
-				D934958B2B839A2A0067B9EA /* ContentView.swift */,
+				D93136DE2BA2EF20000E5A10 /* RentView.swift */,
+				D90ED7492BB024DF00F2B833 /* ListView.swift */,
+				D93136DC2BA2E9D5000E5A10 /* MainPAgeView.swift */,
+				D9F863732BB730CC00C5F2EF /* cities.json */,
+				D9F863742BB730CC00C5F2EF /* towns.json */,
 				D934958D2B839A2E0067B9EA /* Assets.xcassets */,
 				D934958F2B839A2E0067B9EA /* Preview Content */,
 			);
@@ -125,6 +168,22 @@
 				D93495A62B839A2E0067B9EA /* rentaboatUITestsLaunchTests.swift */,
 			);
 			path = rentaboatUITests;
+			sourceTree = "<group>";
+		};
+		D9F863652BB457B600C5F2EF /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				D93136E72BA87A4B000E5A10 /* CustomerMainPageView.swift */,
+				D9F863662BB457E100C5F2EF /* CustomerPageViewModel.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		D9F863682BB68E9500C5F2EF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F863752BB730CC00C5F2EF /* cities.json in Resources */,
+				D9F863762BB730CC00C5F2EF /* towns.json in Resources */,
 				D93495912B839A2E0067B9EA /* Preview Assets.xcassets in Resources */,
 				D934958E2B839A2E0067B9EA /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D934958C2B839A2A0067B9EA /* ContentView.swift in Sources */,
+				D90ED7522BB15A4700F2B833 /* NetworkManager.swift in Sources */,
+				D9F863672BB457E100C5F2EF /* CustomerPageViewModel.swift in Sources */,
+				D93136DD2BA2E9D5000E5A10 /* MainPAgeView.swift in Sources */,
+				D93136E82BA87A4B000E5A10 /* CustomerMainPageView.swift in Sources */,
+				D90ED74A2BB024DF00F2B833 /* ListView.swift in Sources */,
+				D93136DF2BA2EF20000E5A10 /* RentView.swift in Sources */,
+				D90ED7542BB31DC900F2B833 /* CityResponseModel.swift in Sources */,
 				D934958A2B839A2A0067B9EA /* rentaboatApp.swift in Sources */,
+				D9F8636A2BB6FE1800C5F2EF /* TownResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
