@@ -56,13 +56,6 @@ struct CustomerMainPageView: View {
                         }
                     }
                 })
-                ZStack {
-                    Text("Antalya Kaş Kekova Turu")
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .frame(height: 40)
-                        .padding(10)
-                        .background(.white)
-                        .cornerRadius(5)
                     HStack {
                         DatePicker("Select Tour Date", selection: $currentDate, in:Date.now..., displayedComponents: .date)
                             .background(.clear)
@@ -71,13 +64,24 @@ struct CustomerMainPageView: View {
                             .cornerRadius(10)
                             .padding(10)
                     }.frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
+                        .frame(height: 60)
+                        .background(.windowBackground)
+                        .cornerRadius(5)
+                Button {
+                  
+                } label: {
+                    Text("Search Tour")
+                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
+                            .frame(height: 60)
+                            .background(.blue)
+                            .cornerRadius(5)
+                            .font(.headline)
                 }
-              
+
             }.frame(minWidth: 0, maxWidth: .infinity)
             .background(Color.clear)
             .padding(20)
             Spacer()
-
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundStyle(.white)
             .background(

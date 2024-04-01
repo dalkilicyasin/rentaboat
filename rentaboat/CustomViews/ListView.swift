@@ -31,7 +31,6 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             List(filteredCities, id: \.self) { city in
-                
                 Button(action: {
                     print("tapped \(city)")
                     self.selectedCity = city
