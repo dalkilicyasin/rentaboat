@@ -30,7 +30,9 @@ class CustomerPageViewModel: ObservableObject {
             
             switch response {
             case .success(let cityModel):
+             
                 if let filteredCity = cityModel.Turkey?.cityTowns?.filter({$0.city == selectedCity}) {
+                    guard !filteredCity.isEmpty else {return}
                     self?.townList = filteredCity[0].towns ?? []
                 }
             case .failure(let eror):
