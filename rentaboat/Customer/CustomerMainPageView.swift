@@ -21,6 +21,7 @@ struct CustomerMainPageView: View {
     }
     
     var body: some View {
+    
             ZStack {
                 VStack {
                     Text("\(viewModel.selectedCity)")
@@ -69,6 +70,7 @@ struct CustomerMainPageView: View {
                             .background(.windowBackground)
                             .cornerRadius(5)
                     Button {
+                        guard viewModel.selectedTown != "Select Town" else {return}
                         self.navigateListView.toggle()
                     } label: {
                         Text("Search Tour")
@@ -77,7 +79,6 @@ struct CustomerMainPageView: View {
                                 .background(.blue)
                                 .cornerRadius(5)
                                 .font(.headline)
-                                
                     }
                     
                     NavigationLink(destination: TourListView(viewModel: TourListVieModel()), isActive: $navigateListView) {
@@ -97,6 +98,7 @@ struct CustomerMainPageView: View {
                 ).onAppear{
                     self.viewModel.getCityList()
                 }
+           
     }
 }
 

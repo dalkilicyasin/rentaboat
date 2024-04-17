@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct rentaboatApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            MainPAgeView()
+            MainPageTabView()
         }
     }
 }
